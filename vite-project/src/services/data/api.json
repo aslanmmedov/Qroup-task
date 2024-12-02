@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Elvin Abbasov",
       "email": "elvin.abbasov@example.com",
       "createdAt": "2024-12-01T08:00:00Z",
@@ -19,7 +19,7 @@
   ],
   "companies": [
     {
-      "id": 1,
+      "id": "1",
       "name": "TechNest LLC",
       "location": "Baku, Azerbaijan",
       "industry": "IT",
@@ -45,7 +45,7 @@
   ],
   "vacancies": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Frontend Developer",
       "companyId": 1,
       "description": "We are looking for a skilled Frontend Developer with experience in React and TypeScript.",
@@ -74,6 +74,30 @@
     {
       "id": "6d7f",
       "name": "Emi Manning",
+      "password": "Pa$$w0rd!",
+      "isLogged": true
+    },
+    {
+      "id": "1930",
+      "name": "Karyn Lloyd",
+      "password": "Pa$$w0rd!",
+      "isLogged": false
+    },
+    {
+      "id": "b516",
+      "name": "Oliver Dotson",
+      "password": "Pa$$w0rd!",
+      "isLogged": false
+    },
+    {
+      "id": "8904",
+      "name": "Audra Ramos",
+      "password": "Pa$$w0rd!",
+      "isLogged": false
+    },
+    {
+      "id": "3055",
+      "name": "Hoyt Melendez",
       "password": "Pa$$w0rd!",
       "isLogged": false
     }

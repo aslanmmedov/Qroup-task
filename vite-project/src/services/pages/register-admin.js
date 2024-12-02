@@ -6,24 +6,51 @@ let regAdminName = document.querySelector("#reg-admin-name");
 let regAdminPass = document.querySelector("#reg-admin-password");
 let isValid = document.querySelector(".isValidate-span-password");
 
-const regEx = /^(?=.*?[A-Z])(?=.*?[0-9]).{8,}$/;
+const regEx = /^(?=.*?[A-Z])(?=.*?[0-9]).{8,}$/;   
 
+
+
+
+let isThere = false;
 registerForm.addEventListener("submit",function(e){
     e.preventDefault();
-    if(isValidate()){
-        let admin = {
-            name:regAdminName.value.trim(),
-            password:regAdminPass.value.trim(),
-            isLogged:false
+    async function getAdmin(){
+        let {data} = await getAllData("admin");
+        data.forEach(admin => {
+            if(admin.name.trim() === regAdminName.value.trim() && admin.password === regAdminPass.value.trim()){
+                isThere = true;
+                Swal.fire({
+                    icon: "error",
+                    title: "Oops..",
+                    text: "There is already admin with that name",
+                  });
+                
+            };
+        }); 
+        if(!isThere){
+            if(isValidate()){
+                let admin = {
+                    name:regAdminName.value.trim(),
+                    password:regAdminPass.value.trim(),
+                    isLogged:false
+                }
+                addData("admin",admin);
+                Swal.fire({
+                    icon: "success",
+                    title: "Your work has been saved",
+                    showConfirmButton: false,
+                    timer: 3300
+                  });
+            }
         }
-        addData("admin",admin);
+        
     }
+    getAdmin();
+    
 })
 
 function isValidate(){
     isValid.classList.remove("isValidate-false")
-    console.log(regEx.test(regAdminPass.value.trim()))
-    
     if(!regEx.test(regAdminPass.value.trim())){
         isValid.classList.add("isValidate-false")
         console.log("aaaa")
