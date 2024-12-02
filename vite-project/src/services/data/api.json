@@ -1,56 +1,127 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "name": "Elvin Abbasov",
-        "email": "elvin.abbasov@example.com",
-        "createdAt": "2024-12-01T08:00:00Z",
-        "profileImage": "user.jpeg",
-        "linkedinUrl": "url here",
-        "experienceYear": 5,
-        "bio": "Experienced Software Engineer with a passion for web technologies.",
-        "skills": ["JavaScript", "React", "Node.js", "TypeScript"]
-      }
-    ],
-    "companies": [
-      {
-        "id": 1,
-        "name": "TechNest LLC",
-        "location": "Baku, Azerbaijan",
-        "industry": "IT",
-        "createdAt": "2023-01-15T12:00:00Z",
-        "website": "https://www.technest.az",
-        "employeesIds": ["1", "2"],
-        "reviews": [
-          {
-            "userId": 1,
-            "comment": "Great company to work with!",
-            "rating": 5
-          },
-          {
-            "userId": 2,
-            "comment": "Friendly environment and innovative projects.",
-            "rating": 4
-          }
-        ]
-      }
-    ],
-    "vacancies": [
-      {
-        "id": 1,
-        "title": "Frontend Developer",
-        "companyId": 1,
-        "description": "We are looking for a skilled Frontend Developer with experience in React and TypeScript.",
-        "salary": "2000-3000 AZN",
-        "postedAt": "2024-11-30T10:00:00Z",
-        "expiresAt": "2024-12-31T23:59:59Z",
-        "employmentType": "Full-time",
-        "isActive": true,
-        "candidates": [
-          { "candidateId": "1", "status": "pending" },
-          { "candidateId": "2", "status": "accepted" },
-          { "candidateId": "3", "status": "rejected" }
-        ]
-      }
-    ]
-  }
+  "users": [
+    {
+      "id": "1",
+      "name": "Elvin Abbasov",
+      "email": "elvin.abbasov@example.com",
+      "createdAt": "2024-12-01T08:00:00Z",
+      "profileImage": "user.jpeg",
+      "linkedinUrl": "url here",
+      "experienceYear": 5,
+      "bio": "Experienced Software Engineer with a passion for web technologies.",
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "TypeScript"
+      ]
+    },
+    {
+      "id": 1733170623024,
+      "name": "wxqw",
+      "email": "dqwd@DCDSVC",
+      "password": "wecw"
+    },
+    {
+      "id": 1733170692422,
+      "name": "qwdxw",
+      "email": "wdxqwwd@dwejf",
+      "password": "wecw"
+    },
+    {
+      "id": 1733170864767,
+      "name": "esgerli_ferid",
+      "email": "esgerli_ferid@gmail.com",
+      "password": "salam123"
+    },
+    {
+      "id": 1733170885397,
+      "name": "esgerli_ferid",
+      "email": "fwefwedf@gmail.com",
+      "password": "salam"
+    },
+    {
+      "id": 1733171433901,
+      "name": "aganur",
+      "email": "aga2000er@gmail.cpm",
+      "password": "aga20044002"
+    },
+    {
+      "id": 1733171546575,
+      "name": "agaaa",
+      "email": "agaaa20005ee@salam",
+      "password": "aga2004e"
+    },
+    {
+      "id": 1733171603886,
+      "name": "davywaaaa",
+      "email": "esgerli_ferid@fffaffaa",
+      "password": "xawcaec"
+    },
+    {
+      "id": 1733171785861,
+      "name": "salaaaammm",
+      "email": "salam@salam",
+      "password": "dasadasa"
+    },
+    {
+      "id": 1733172329138,
+      "name": "salam",
+      "email": "salam123@gmail.com",
+      "password": "agasalam123"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "TechNest LLC",
+      "location": "Baku, Azerbaijan",
+      "industry": "IT",
+      "createdAt": "2023-01-15T12:00:00Z",
+      "website": "https://www.technest.az",
+      "employeesIds": [
+        "1",
+        "2"
+      ],
+      "reviews": [
+        {
+          "userId": 1,
+          "comment": "Great company to work with!",
+          "rating": 5
+        },
+        {
+          "userId": 2,
+          "comment": "Friendly environment and innovative projects.",
+          "rating": 4
+        }
+      ]
+    }
+  ],
+  "vacancies": [
+    {
+      "id": "1",
+      "title": "Frontend Developer",
+      "companyId": 1,
+      "description": "We are looking for a skilled Frontend Developer with experience in React and TypeScript.",
+      "salary": "2000-3000 AZN",
+      "postedAt": "2024-11-30T10:00:00Z",
+      "expiresAt": "2024-12-31T23:59:59Z",
+      "employmentType": "Full-time",
+      "isActive": true,
+      "candidates": [
+        {
+          "candidateId": "1",
+          "status": "pending"
+        },
+        {
+          "candidateId": "2",
+          "status": "accepted"
+        },
+        {
+          "candidateId": "3",
+          "status": "rejected"
+        }
+      ]
+    }
+  ]
+}
