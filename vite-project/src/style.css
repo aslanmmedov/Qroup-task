@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .vacancies-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  
+  .vacancy-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .vacancy-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .vacancy-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  
+  .vacancy-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  
+  .vacancy-details {
+    font-size: 0.9rem;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .vacancy-details span {
+    display: block;
+    margin: 5px 0;
+  }
+  .salary {
+    font-weight: bold;
+    color: rgb(223, 82, 82);
+  }
+  
+  
+  .employment-type {
+    font-style: italic;
+    color:#541142;
+  }
+  
+  
+  .posted-at {
+    color: #bdc3c7;
+  }
+  
+  
+  .apply-button {
+    background-color: #ec2e3a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .apply-button:hover {
+    background-color:#541142;
+  }
+  
