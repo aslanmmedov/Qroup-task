@@ -41,3 +41,12 @@ label,h1{
 .isValidate-false{
     display:block;
 }
+
+/*  */
+
+.imG,description,salary,employmentType{
+    width:400px;
+}
+.img-table{
+    width:100px;
+}

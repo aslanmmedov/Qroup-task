@@ -45,29 +45,11 @@
   ],
   "vacancies": [
     {
-      "id": "1",
-      "title": "Frontend Developer",
-      "companyId": 1,
-      "description": "We are looking for a skilled Frontend Developer with experience in React and TypeScript.",
-      "salary": "2000-3000 AZN",
-      "postedAt": "2024-11-30T10:00:00Z",
-      "expiresAt": "2024-12-31T23:59:59Z",
-      "employmentType": "Full-time",
-      "isActive": true,
-      "candidates": [
-        {
-          "candidateId": "1",
-          "status": "pending"
-        },
-        {
-          "candidateId": "2",
-          "status": "accepted"
-        },
-        {
-          "candidateId": "3",
-          "status": "rejected"
-        }
-      ]
+      "id": "ab74",
+      "name": "sadsfd",
+      "salary": "24323",
+      "description": "sadasd",
+      "imgUrl": "https://abbtech.az/storage/uploads/files/1687508692_1615533694-frontendd.svg"
     }
   ],
   "admin": [
@@ -81,7 +63,7 @@
       "id": "1930",
       "name": "Karyn Lloyd",
       "password": "Pa$$w0rd!",
-      "isLogged": false
+      "isLogged": true
     },
     {
       "id": "b516",
@@ -110,6 +92,12 @@
     {
       "id": "3f08",
       "name": "Malachi Miranda",
+      "password": "Pa$$w0rd!",
+      "isLogged": false
+    },
+    {
+      "id": "df20",
+      "name": "Kristen Hood",
       "password": "Pa$$w0rd!",
       "isLogged": false
     }
