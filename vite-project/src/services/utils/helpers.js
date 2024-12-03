@@ -23,3 +23,7 @@ export async function editDataById(endpoint,id,payload){
     const response = await axios.put(`${BASE_URL}/${endpoint}/${id}`,payload);
     return response
 }
+export async function editDataByIdI(endpoint,id,payload){
+    const response = await axios.patch(`${BASE_URL}/${endpoint}/${id}`,payload);
+    return response
+}
