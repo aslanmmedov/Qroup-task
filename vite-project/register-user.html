@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./public/css/ferid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-register">
         <div class="left-side">
             <h1>Choose your best jobs!</h1>
             <img src="https://cdn.pixabay.com/photo/2023/02/07/18/56/rocket-7774875_1280.png"
@@ -27,7 +30,10 @@
                 </div>
                 <div class="form-group">
                     <label for="password">Password</label>
-                    <input type="password" id="password" name="password" autocomplete="on" required>
+                    <div class="password-container">
+                        <input type="password" id="password" name="password" required autocomplete="true">
+                        <i id="toggle-password" class="fa-regular fa-eye"></i>
+                    </div>
                 </div>
                 <div class="form-group">
                     <label for="file">File</label>

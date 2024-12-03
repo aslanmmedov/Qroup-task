@@ -2,7 +2,8 @@ const loginForm = document.querySelector(".login-form");
 const passwordInput = document.querySelector("#password");
 const usernameEmailInput = document.querySelector("#username-email");
 
-let isLogged = false;
+let islogged = false;
+
 
 loginForm.addEventListener("submit", async function (event) {
   event.preventDefault();
@@ -23,12 +24,26 @@ loginForm.addEventListener("submit", async function (event) {
     const response = await fetch("http://localhost:8000/users");
     const users = await response.json();
 
+
     const user = users.find(
       (user) => user.email === usernameEmail || user.name === usernameEmail
     );
-
+    console.log(user)
     if (user && user.password === password) {
-      isLogged = true;
+
+      console.log(user)
+
+
+      fetch(`http://localhost:8000/users/${user.id}`, {
+        method: "PATCH",
+        body: JSON.stringify({ isLogged: true }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }).then(resp => { console.log(resp) }).catch(err => {
+        console.log(err)
+      })
+
 
       Swal.fire({
         icon: "success",
@@ -41,7 +56,7 @@ loginForm.addEventListener("submit", async function (event) {
         },
       });
     } else {
-      isLogged = false; 
+      islogged = false;
       Swal.fire({
         icon: "error",
         title: "Oops...",
@@ -55,5 +70,23 @@ loginForm.addEventListener("submit", async function (event) {
       title: "Oops...",
       text: "An error occurred, please try again later.",
     });
+  }
+});
+const togglePassword = document.querySelector("#toggle-password");
+
+
+togglePassword.addEventListener("click", function () {
+
+  const type = passwordInput.type === "password" ? "text" : "password";
+
+  passwordInput.type = type;
+
+
+  if (type === "password") {
+    togglePassword.classList.remove("fa-eye-slash");
+    togglePassword.classList.add("fa-eye");
+  } else {
+    togglePassword.classList.remove("fa-eye");
+    togglePassword.classList.add("fa-eye-slash");
   }
 });

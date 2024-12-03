@@ -27,6 +27,16 @@ body {
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
 }
 
+.container-register {
+    display: flex;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 900px;
+    height: 550px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
 .left-side {
     flex: 1;
     background-color: #051316;
@@ -72,12 +82,12 @@ body {
 }
 
 .login-form h2 {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: #333;
 }
 
 .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .form-group label {
@@ -139,6 +149,30 @@ body {
     color: #333;
     text-decoration: none;
     font-weight: 500;
+}
+
+.password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* .password-container-register {
+    position: relative;
+    display: flex;
+    align-items: center;
+} */
+
+#password {
+    padding-right: 30px;
+}
+
+#toggle-password {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    
 }
 
 @media (max-width: 768px) {
