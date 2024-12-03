@@ -8,6 +8,8 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./public/css/grid.css" />
     <link rel="stylesheet" href=".//public/css/sabine.css" />
+    <link rel="stylesheet" href=".//public/css/menu.css" />
+  
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
  
@@ -15,48 +17,29 @@
   <body>
     <div id="app">
       <div class="Sabin">
-        <header>
-          <nav>
-            
-            <div class="image">
-              <img
-                src="./src/services/images/64626a4a74818ca87606a470_Primary Logo - Black.svg"
-                alt=""
-              />
-              
-
-                <div class="hrefs">
-                  <ul>
+       <header>
+     <section id="header">
+        <div class="logo">
+          
+        </div>
+        <img src="./src/services/images/wellfound-0adbdc4bbe3303693ba4922f5cabd3c3b47ae77c81088f6610f550b28fb6d05f (1).svg" alt="" />
+        <nav>
+        <ul>
                     <li><a href="#">Vakansiyalar</a></li>
                     <li><a href="#">Companies</a></li>
                     <li><a href="#">CV</a></li>
                     <li><a href="#">About Us</a></li>
-                  </ul>
-                </div>
-  
-                <div class="btns">
-                  <button class="btn log">Log In</button>
-                  <button class="btn sign">Sign Up</button>
-                </div>
-                <div class="hamburger" id="hamburger">
-                  <i class="fa-solid fa-bars icon"></i>
-                  <div class="sidebar d-none">
-                      <ul>
-                        <li><a href="#">Vakansiyalar</a></li>
-                        <li><a href="#">Companies</a></li>
-                        <li><a href="#">CV</a></li>
-                        <li><a href="#">About Us</a></li>                     
-                      </ul>  
-
-                      <button class="btn log">Log In</button>
+                    <button class="btn log">Log In</button>
                       <button class="btn sign">Sign Up</button>
-                    </div>
-
-              </div>
-            
-
-          </nav>
-        </header>
+                  </ul>
+                  
+        </nav>
+      
+        
+  
+    <div class="new-menu-item"><i class="fa fa-bars"></i></div>
+      </section>
+    </header>
 
         <section id="abaut">
           <div class="text">
@@ -263,7 +246,7 @@
         </footer>
       </div>
     </div>
-    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="./src/main.js"></script>
  
   </body>
 </html>
