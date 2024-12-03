@@ -71,9 +71,17 @@ class VacancyData {
   
 
   function createCard(vacancy) {
+  
     const card = document.createElement('div');
     card.classList.add('card');
+    card.classList.add("col-3","col-md-4","col-sm-12");
+   
     
+    const imgv = document.createElement('img');
+    imgv.classList.add('img-table');
+    imgv.src = vacancy.imgUrl;
+    card.appendChild(imgv);
+
     const title = document.createElement('h3');
     title.textContent = vacancy.title;
     card.appendChild(title);
@@ -89,7 +97,14 @@ class VacancyData {
     const employmentType = document.createElement('p');
     employmentType.innerHTML = `<span>Employment Type:</span> ${vacancy.employmentType}`;
     card.appendChild(employmentType);
-  
+
+    const time = document.createElement('p');
+    time.innerHTML = `<span>Date:</span> ${vacancy.postedAt}`;
+    // time.textContent = vacancy.postedAt;
+    card.appendChild(time);
+    
+
+
     return card;
   }
   

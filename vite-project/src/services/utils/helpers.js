@@ -12,7 +12,7 @@ export async function addData(endpoint,payload){
 }
 
 export async function getDataById(endpoint,id){
-    const response = await axios.post(`${BASE_URL}/${endpoint}/${id}`);
+    const response = await axios.post(`${BASE_URL}/${endpoint}?id=${id}`);
     return response
 }
 export async function deleteDataById(endpoint,id){
