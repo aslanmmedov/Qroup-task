@@ -156,3 +156,107 @@
 
     ]
   }
+  "users": [
+    {
+      "id": "1",
+      "name": "Elvin Abbasov",
+      "email": "elvin.abbasov@example.com",
+      "createdAt": "2024-12-01T08:00:00Z",
+      "profileImage": "user.jpeg",
+      "linkedinUrl": "url here",
+      "experienceYear": 5,
+      "bio": "Experienced Software Engineer with a passion for web technologies.",
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "TypeScript"
+      ]
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "TechNest LLC",
+      "location": "Baku, Azerbaijan",
+      "industry": "IT",
+      "createdAt": "2023-01-15T12:00:00Z",
+      "website": "https://www.technest.az",
+      "employeesIds": [
+        "1",
+        "2"
+      ],
+      "reviews": [
+        {
+          "userId": 1,
+          "comment": "Great company to work with!",
+          "rating": 5
+        },
+        {
+          "userId": 2,
+          "comment": "Friendly environment and innovative projects.",
+          "rating": 4
+        }
+      ]
+    }
+  ],
+  "vacancies": [
+    {
+      "id": "ab74",
+      "name": "sadsfd",
+      "salary": "24323",
+      "description": "sadasd",
+      "imgUrl": "https://abbtech.az/storage/uploads/files/1687508692_1615533694-frontendd.svg"
+    }
+  ],
+  "admin": [
+    {
+      "id": "6d7f",
+      "name": "Emi Manning",
+      "password": "Pa$$w0rd!",
+      "isLogged": true
+    },
+    {
+      "id": "1930",
+      "name": "Karyn Lloyd",
+      "password": "Pa$$w0rd!",
+      "isLogged": true
+    },
+    {
+      "id": "b516",
+      "name": "Oliver Dotson",
+      "password": "Pa$$w0rd!",
+      "isLogged": false
+    },
+    {
+      "id": "8904",
+      "name": "Audra Ramos",
+      "password": "Pa$$w0rd!",
+      "isLogged": false
+    },
+    {
+      "id": "3055",
+      "name": "Hoyt Melendez",
+      "password": "Pa$$w0rd!",
+      "isLogged": false
+    },
+    {
+      "id": "8e50",
+      "name": "Garth Rutledge",
+      "password": "Pa$$w0rd!",
+      "isLogged": false
+    },
+    {
+      "id": "3f08",
+      "name": "Malachi Miranda",
+      "password": "Pa$$w0rd!",
+      "isLogged": false
+    },
+    {
+      "id": "df20",
+      "name": "Kristen Hood",
+      "password": "Pa$$w0rd!",
+      "isLogged": false
+    }
+  ]
+}

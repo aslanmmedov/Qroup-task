@@ -1,0 +1,52 @@
+.container{
+    width:1200px;
+    display:flex;
+    margin:0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.register-box,.login-box{
+    margin-top:100px;
+    padding:2rem;
+    width:950px;
+    background-color:cadetblue;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius:15px;
+}
+label,h1{
+    color:#c8aa6e;
+    font-weight: 700;
+}
+.btn-red{
+    background-color: #c8aa6e ;
+    color:white;
+    font-weight: 600;
+}
+.reg-inp-length{
+    width:400px;
+    background-color:transparent;
+    border:2px solid #c8aa6e;
+}
+.reg-header,.header-login{
+    text-align: center;
+    margin-bottom:50px;
+}
+.isValidate-span-password{
+    display:none;
+    color:red;
+}
+.isValidate-false{
+    display:block;
+}
+
+/*  */
+
+.imG,description,salary,employmentType{
+    width:400px;
+}
+.img-table{
+    width:100px;
+}
