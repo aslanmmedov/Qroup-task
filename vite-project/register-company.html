@@ -1,0 +1,115 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./public/css/nermin.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="left-side">
+        <h1>Choose your best jobs!</h1>
+        <img src="https://cdn.pixabay.com/photo/2023/02/07/18/56/rocket-7774875_1280.png"
+            alt="Learning illustration" class="illustration">
+    </div>
+    <div class="right-side">
+        <form class="register-form">
+            <h2>Create Account</h2>
+            <div class="form-group">
+              <label for="companyname">Company Name</label>
+              <input type="text" id="companyname" name="companyname" required>
+          </div>
+            <div class="form-group">
+                <label for="work-email">Work Email</label>
+                <input type="text" id="work-email" name="work-email" required>
+            </div>
+            
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <div class="password-container">
+                    <input type="password" id="password" name="password" required autocomplete="true">
+                    <i id="toggle-password" class="fa-regular fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="company-photo">Company Photo</label>
+                <div class="custom-file-container">
+                    <input type="file" id="company-photo" name="company-photo" class="file-input" accept="image/*" required>
+                    <button type="button" class="custom-file-button">Upload Photo</button>
+                    <span class="file-name">No file selected</span>
+                </div>
+            </div>
+
+            <button type="submit" class="register-button">Sign Up</button>
+            <div class="signup-link">
+                Already have an account? <a href="login-company.html">Log in</a>
+            </div>
+          
+        </form>
+    </div>
+</div>
+
+<script src="./src/services/pages/register-company.js"></script>
+</body>
+</html> -->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./public/css/nermin.css">
+  <title>Create Account</title>
+</head>
+<body>
+  <div class="container">
+    <div class="left-side">
+        <h1>Choose your best jobs!</h1>
+        <img src="https://cdn.pixabay.com/photo/2023/02/07/18/56/rocket-7774875_1280.png" alt="Learning illustration" class="illustration">
+    </div>
+    <div class="right-side">
+        <form class="register-form">
+            <h2>Create Account</h2>
+            <div class="form-group">
+              <label for="companyname">Company Name</label>
+              <input type="text" id="companyname" name="companyname" required>
+            </div>
+            <div class="form-group">
+                <label for="work-email">Work Email</label>
+                <input type="email" id="work-email" name="work-email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <div class="password-container">
+                    <input type="password" id="password" name="password" required>
+                    <i id="toggle-password" class="fa-regular fa-eye"></i>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="company-photo">Company Photo</label>
+                <div class="custom-file-container">
+                    <input type="file" id="company-photo" name="company-photo" class="file-input" accept="image/*" required>
+                    <button type="button" class="custom-file-button">Upload Photo</button>
+                    <span class="file-name">No file selected</span>
+                </div>
+            </div>
+
+            <button type="submit" class="register-button">Sign Up</button>
+            <div class="signup-link">
+                Already have an account? <a href="login-company.html">Log in</a>
+            </div>
+        </form>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./src/services/pages/register-company.js" ></script>
+</body>
+</html>
