@@ -172,6 +172,92 @@
         "Node.js",
         "TypeScript"
       ]
+    },
+    {
+      "id": "1733170623024",
+      "name": "wxqw",
+      "email": "dqwd@DCDSVC",
+      "password": "wecw"
+    },
+    {
+      "id": "1733170692422",
+      "name": "qwdxw",
+      "email": "wdxqwwd@dwejf",
+      "password": "wecw"
+    },
+    {
+      "id": "1733170864767",
+      "name": "esgerli_ferid",
+      "email": "esgerli_ferid@gmail.com",
+      "password": "salam123"
+    },
+    {
+      "id": "1733170885397",
+      "name": "esgerli_ferid",
+      "email": "fwefwedf@gmail.com",
+      "password": "salam"
+    },
+    {
+      "id": "1733171433901",
+      "name": "aganur",
+      "email": "aga2000er@gmail.cpm",
+      "password": "aga20044002"
+    },
+    {
+      "id": "1733171546575",
+      "name": "agaaa",
+      "email": "agaaa20005ee@salam",
+      "password": "aga2004e"
+    },
+    {
+      "id": "1733171603886",
+      "name": "davywaaaa",
+      "email": "esgerli_ferid@fffaffaa",
+      "password": "xawcaec"
+    },
+    {
+      "id": "1733171785861",
+      "name": "salaaaammm",
+      "email": "salam@salam",
+      "password": "dasadasa"
+    },
+    {
+      "id": "1733172329138",
+      "name": "salam",
+      "email": "salam123@gmail.com",
+      "password": "agasalam123"
+    },
+    {
+      "id": 1733220279314,
+      "name": "aslan",
+      "email": "aslan123@gmail.com",
+      "password": "aslan123"
+    },
+    {
+      "id": 1733221138691,
+      "name": "emin",
+      "email": "eminov@gmail.com",
+      "password": "emin123"
+    },
+    {
+      "id": 1733221208315,
+      "name": "elcan",
+      "email": "elcan1@gmail.com",
+      "password": "salambaki"
+    },
+    {
+      "id": "1733221624187",
+      "name": "eminn",
+      "email": "eminn@salam7373",
+      "password": "salam7373",
+      "isLogged": true
+    },
+    {
+      "id": "1733221872435",
+      "name": "sahmur",
+      "email": "sahmur@gmail",
+      "password": "sahmur1",
+      "isLogged": true
     }
   ],
   "companies": [
@@ -202,6 +288,32 @@
   ],
   "vacancies": [
     {
+      "id": "1",
+      "title": "Frontend Developer",
+      "companyId": 1,
+      "description": "We are looking for a skilled Frontend Developer with experience in React and TypeScript.",
+      "salary": "2000-3000 AZN",
+      "postedAt": "2024-11-30T10:00:00Z",
+      "expiresAt": "2024-12-31T23:59:59Z",
+      "employmentType": "Full-time",
+      "isActive": true,
+      "candidates": [
+        {
+          "candidateId": "1",
+          "status": "pending"
+        },
+        {
+          "candidateId": "2",
+          "status": "accepted"
+        },
+        {
+          "candidateId": "3",
+          "status": "rejected"
+        }
+      ]
+    }
+  ]
+}
       "id": "ab74",
       "name": "sadsfd",
       "salary": "24323",
