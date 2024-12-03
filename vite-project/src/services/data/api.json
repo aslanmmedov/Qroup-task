@@ -100,6 +100,18 @@
       "name": "Hoyt Melendez",
       "password": "Pa$$w0rd!",
       "isLogged": false
+    },
+    {
+      "id": "8e50",
+      "name": "Garth Rutledge",
+      "password": "Pa$$w0rd!",
+      "isLogged": false
+    },
+    {
+      "id": "3f08",
+      "name": "Malachi Miranda",
+      "password": "Pa$$w0rd!",
+      "isLogged": false
     }
   ]
 }

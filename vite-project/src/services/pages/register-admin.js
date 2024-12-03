@@ -13,7 +13,7 @@ const regEx = /^(?=.*?[A-Z])(?=.*?[0-9]).{8,}$/;
 
 let isThere = false;
 registerForm.addEventListener("submit",function(e){
-    e.preventDefault();
+    // e.preventDefault();
     async function getAdmin(){
         let {data} = await getAllData("admin");
         data.forEach(admin => {
@@ -23,6 +23,8 @@ registerForm.addEventListener("submit",function(e){
                     icon: "error",
                     title: "Oops..",
                     text: "There is already admin with that name",
+                  }).then(() => {
+                    window.location.href("login-admin.html");
                   });
                 
             };
