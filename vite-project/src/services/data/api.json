@@ -129,6 +129,209 @@
       ]
     }
   ],
+  "companies-info": [
+    {
+      "id": "1",
+      "name": "",
+      "workemail": "",
+      "password": "",
+      "photo": "",
+      "createdAt": "2023-01-15T12:00:00Z"
+    },
+    {
+      "id": "1733233497499",
+      "name": "nermin",
+      "workemail": "hey@code.edu.az",
+      "password": "12345nr",
+      "photo": "Capture.PNG",
+      "createdAt": "2024-12-03T13:44:57.499Z"
+    },
+    {
+      "id": "1733233516748",
+      "name": "ghngy",
+      "workemail": "gthhftd",
+      "password": "12345",
+      "photo": "Capture.PNG",
+      "createdAt": "2024-12-03T13:45:16.748Z"
+    },
+    {
+      "id": "1733233750332",
+      "name": "rtgrg",
+      "workemail": "1213@gmail.com",
+      "password": "123sal",
+      "photo": "Capture.PNG",
+      "createdAt": "2024-12-03T13:49:10.332Z"
+    },
+    {
+      "id": "1733233806340",
+      "name": "salammmnm",
+      "workemail": "salam1213@gmail.com",
+      "password": "123456789",
+      "photo": "Capture.PNG",
+      "createdAt": "2024-12-03T13:50:06.340Z"
+    },
+    {
+      "id": "1733234214060",
+      "name": "hjk",
+      "workemail": "hjk@gmail.com",
+      "password": "hjk123",
+      "photo": "Oceans excess heat.avif",
+      "createdAt": "2024-12-03T13:56:54.060Z"
+    },
+    {
+      "id": "1733235036242",
+      "name": "asdsad",
+      "workemail": "narmin@code.edu.az",
+      "password": "1312312",
+      "photo": "Bitmap (3).png",
+      "createdAt": "2024-12-03T14:10:36.242Z"
+    },
+    {
+      "id": "1733235104746",
+      "name": "asdsa",
+      "workemail": "salam@gmail.com",
+      "password": "asdasq312",
+      "photo": "Bitmap (5).png",
+      "createdAt": "2024-12-03T14:11:44.746Z"
+    },
+    {
+      "id": "1733235142050",
+      "name": "salammmnm",
+      "workemail": "hey@code.edu.az",
+      "password": "123123",
+      "photo": "Bitmap (1).png",
+      "createdAt": "2024-12-03T14:12:22.050Z"
+    },
+    {
+      "id": "1733235292346",
+      "name": "asdsadas",
+      "workemail": "narmin@code.edu.az",
+      "password": "12312312",
+      "photo": "Bitmap (3).png",
+      "createdAt": "2024-12-03T14:14:52.346Z"
+    },
+    {
+      "id": "1733235306938",
+      "name": "asdasd",
+      "workemail": "nermin@code.edu.az",
+      "password": "123123123",
+      "photo": "Bitmap (4).png",
+      "createdAt": "2024-12-03T14:15:06.938Z"
+    },
+    {
+      "id": "1733235338210",
+      "name": "asdsad",
+      "workemail": "1213@gmail.com",
+      "password": "423423",
+      "photo": "Bitmap (1).png",
+      "createdAt": "2024-12-03T14:15:38.210Z"
+    },
+    {
+      "id": "1733235706313",
+      "name": "asdsad",
+      "workemail": "nermin@code.edu.az",
+      "password": "12312414",
+      "photo": "companyphoto",
+      "createdAt": "2024-12-03T14:21:46.313Z"
+    },
+    {
+      "id": "1733235723185",
+      "name": "ewrewrwe",
+      "workemail": "1213@gmail.com",
+      "password": "23432432",
+      "photo": "companyphoto",
+      "createdAt": "2024-12-03T14:22:03.185Z"
+    },
+    {
+      "id": "1733235768305",
+      "name": "nermin",
+      "workemail": "salam@gmail.com",
+      "password": "sadsadasd",
+      "photo": "companyphoto",
+      "createdAt": "2024-12-03T14:22:48.305Z"
+    },
+    {
+      "id": "1733236200289",
+      "name": "asdsad",
+      "workemail": "narmin@code.edu.az",
+      "password": "23432423",
+      "photo": "Bitmap (2).png",
+      "createdAt": "2024-12-03T14:30:00.289Z"
+    },
+    {
+      "id": "1733236216768",
+      "name": "asdsad",
+      "workemail": "wefewf@ADSAD",
+      "password": "wefewf",
+      "photo": "Bitmap (2).png",
+      "createdAt": "2024-12-03T14:30:16.768Z"
+    },
+    {
+      "id": "1733237883694",
+      "name": "nermin",
+      "workemail": "salam@gmail.com",
+      "password": "nermin123",
+      "photo": "Bitmap (5).png",
+      "createdAt": "2024-12-03T14:58:03.694Z"
+    },
+    {
+      "id": 1733284017350,
+      "name": "narsly",
+      "workemail": "narsly@gmail.com",
+      "password": "nars1234567",
+      "photo": "spik.png",
+      "createdAt": "2024-12-04T03:46:57.350Z"
+    },
+    {
+      "id": 1733284960162,
+      "name": "terlan",
+      "workemail": "terlan@gmail.com",
+      "password": "terlan1234567",
+      "photo": "spik.png",
+      "createdAt": "2024-12-04T04:02:40.162Z"
+    },
+    {
+      "id": 1733288129641,
+      "name": "eltun",
+      "workemail": "eltun@gmail.com",
+      "password": "eltun12345",
+      "photo": "spik.png",
+      "createdAt": "2024-12-04T04:55:29.641Z"
+    },
+    {
+      "id": 1733288772120,
+      "name": "code academy",
+      "workemail": "code@edu.az",
+      "password": "code12345678",
+      "photo": "spik.png",
+      "createdAt": "2024-12-04T05:06:12.120Z"
+    }
+  ],
+  "vacancies": [
+    {
+      "id": "1",
+      "title": "Frontend Developer",
+      "companyId": 1,
+      "description": "We are looking for a skilled Frontend Developer with experience in React and TypeScript.",
+      "salary": "2000-3000 AZN",
+      "postedAt": "2024-11-30T10:00:00Z",
+      "expiresAt": "2024-12-31T23:59:59Z",
+      "employmentType": "Full-time",
+      "isActive": true,
+      "candidates": [
+        {
+          "candidateId": "1",
+          "status": "pending"
+        },
+        {
+          "candidateId": "2",
+          "status": "accepted"
+        },
+        {
+          "candidateId": "3",
+          "status": "rejected"
+        }
+      ]
   "vacancies": [
     {
       "id": "2",
