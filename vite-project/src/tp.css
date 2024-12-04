@@ -2,8 +2,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    
-    
   }
   
   .filters {
@@ -21,7 +19,7 @@ body {
     font-size: 16px;
     border:none;
     border-radius: 10px;
-    background-color:#2a2236;
+    background-color:#051316;
     
   }
   #search-input::placeholder{
@@ -45,12 +43,13 @@ body {
   
   .card {
     min-height:420px;
-    background: #f4f4f4;
+    background: #e3ecee;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     display:flex;
     flex-direction: column;
-    gap:0.6rem;
+    gap:1rem;
+    margin-bottom:1rem;
   }
   
   .card .img-table{
@@ -58,7 +57,8 @@ body {
   }
   .card h3 {
     margin-top: 0;
-    color: red;
+    color: #010a0b;
+    font-weight: 600;
   }
   
   .card p {
@@ -76,7 +76,7 @@ body {
         border: solid 2px ;
         border:none;
         border-radius: 10px;
-         background-color:#2a2236;
+         background-color:#051316;
          color:rgba(255, 255, 255, 0.761);
     }  
     #salary-select::placeholder{
@@ -85,5 +85,5 @@ body {
 
     #vacancies-cards{
       min-height:100vh;
-      background-color:#f0ebed;
+      background-color:#b2bdc0;
     }

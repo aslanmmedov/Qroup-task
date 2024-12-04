@@ -58,8 +58,8 @@ function drawTable(jobs,event) {
                     <td>${job.employmentType}</td>
                     <td>${job.postedAt}</td>
                     <td class = "actions">
-                        <a href = "edit.html?id=${job.id}" target = "blanck" class = "btn btn-warning edit">Edit</a>
-                        <button class = "btn btn-danger delete" data-id =${job.id}>Delete</button>
+                        <a href = "edit.html?id=${job.id}" target = "blanck" class = "btn edit" style = "background-color:#051316; color:white;">Edit</a>
+                        <button class = "btn delete" data-id =${job.id} style = "background-color:#EC2E3A; color:white; margin-top:1rem;">Delete</button>
                     </td>
         `
         tbody.appendChild(prodElem);

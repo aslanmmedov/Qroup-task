@@ -29,8 +29,9 @@ header #header {
   z-index: 999;
 }
 
-header #header .logo img {
-  width: 100%;
+header #header  img {
+  margin-top:2rem;
+  width: 150%;
 }
 
 header #header nav ul {
@@ -198,9 +199,9 @@ header .log:hover {
   margin-top: 100px;
   flex-wrap: wrap;
 }
-.Sabin  .text img{
- /* width: 190px; */
-}
+/* .Sabin  .text img{
+
+} */
 .Sabin .text span {
   font-size: 70px;
   font-weight: 700;
@@ -376,8 +377,7 @@ align-items: center; */
   margin-top: 50px;
 }
 
-
-.Sabin footer{
+footer{
   background-color: #1a0f2e;
   padding: 30px;
   margin-top: 30px;

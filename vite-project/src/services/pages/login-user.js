@@ -4,7 +4,6 @@ const usernameEmailInput = document.querySelector("#username-email");
 
 let islogged = false;
 
-
 loginForm.addEventListener("submit", async function (event) {
   event.preventDefault();
 
@@ -24,39 +23,42 @@ loginForm.addEventListener("submit", async function (event) {
     const response = await fetch("http://localhost:8000/users");
     const users = await response.json();
 
-
     const user = users.find(
       (user) => user.email === usernameEmail || user.name === usernameEmail
     );
-    console.log(user)
+    console.log(user); 
+
     if (user && user.password === password) {
+      console.log("Login Successful:", user);
 
-      console.log(user)
 
-
-      fetch(`http://localhost:8000/users/${user.id}`, {
+      const updateResponse = await fetch(`http://localhost:8000/users/${user.id}`, {
         method: "PATCH",
         body: JSON.stringify({ isLogged: true }),
         headers: {
           "Content-Type": "application/json",
         },
-      }).then(resp => { console.log(resp) }).catch(err => {
-        console.log(err)
-      })
-
-
-      Swal.fire({
-        icon: "success",
-        title: "Login Successful",
-        text: "You are now logged in!",
-        timer: 3000,
-        timerProgressBar: true,
-        willClose: () => {
-          window.location.href = "main.html";
-        },
       });
+
+      if (updateResponse.ok) {
+        Swal.fire({
+          icon: "success",
+          title: "Login Successful",
+          text: "You are now logged in!",
+          timer: 3000,
+          timerProgressBar: true,
+        }).then(() => {
+          window.location.replace('index.html');
+        });
+      } else {
+        console.error("Failed to update user status");
+        Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "Failed to update login status.",
+        });
+      }
     } else {
-      islogged = false;
       Swal.fire({
         icon: "error",
         title: "Oops...",
@@ -72,15 +74,13 @@ loginForm.addEventListener("submit", async function (event) {
     });
   }
 });
+
 const togglePassword = document.querySelector("#toggle-password");
 
-
 togglePassword.addEventListener("click", function () {
-
   const type = passwordInput.type === "password" ? "text" : "password";
 
   passwordInput.type = type;
-
 
   if (type === "password") {
     togglePassword.classList.remove("fa-eye-slash");

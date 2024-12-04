@@ -1,4 +1,4 @@
-import { getAllData } from "../utils/helpers";
+import { getAllData } from "../utils/helpers.js";
 
 const loginForm = document.querySelector(".register-form");
 const passwordInput = document.querySelector("#password");
@@ -27,8 +27,8 @@ loginForm.addEventListener("submit", async function (event) {
     // New company data
     let resp = await getAllData("companies-info");
     let data = await getAllData("vacancies");
-    let companyid = resp.find((p) => p.id);
-    let companyJobs = data.find((q) => q.companyId === companyid);
+    let companyid = resp.data.find((p) => p.id);
+    let companyJobs = data.data.find((q) => q.companyId === companyid);
     let vacancy = [];
     vacancy.push(companyJobs);
     
