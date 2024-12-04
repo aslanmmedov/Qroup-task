@@ -29,78 +29,11 @@
       "password": "wecw"
     },
     {
-      "id": "1733170864767",
-      "name": "esgerli_ferid",
-      "email": "esgerli_ferid@gmail.com",
-      "password": "salam123"
-    },
-    {
-      "id": "1733170885397",
-      "name": "esgerli_ferid",
-      "email": "fwefwedf@gmail.com",
-      "password": "salam"
-    },
-    {
-      "id": "1733171433901",
-      "name": "aganur",
-      "email": "aga2000er@gmail.cpm",
-      "password": "aga20044002"
-    },
-    {
-      "id": "1733171546575",
-      "name": "agaaa",
-      "email": "agaaa20005ee@salam",
-      "password": "aga2004e"
-    },
-    {
-      "id": "1733171603886",
-      "name": "davywaaaa",
-      "email": "esgerli_ferid@fffaffaa",
-      "password": "xawcaec"
-    },
-    {
-      "id": "1733171785861",
-      "name": "salaaaammm",
-      "email": "salam@salam",
-      "password": "dasadasa"
-    },
-    {
-      "id": "1733172329138",
-      "name": "salam",
-      "email": "salam123@gmail.com",
-      "password": "agasalam123"
-    },
-    {
-      "id": "1733220279314",
-      "name": "aslan",
-      "email": "aslan123@gmail.com",
-      "password": "aslan123"
-    },
-    {
-      "id": "1733221138691",
-      "name": "emin",
-      "email": "eminov@gmail.com",
-      "password": "emin123"
-    },
-    {
-      "id": "1733221208315",
-      "name": "elcan",
-      "email": "elcan1@gmail.com",
-      "password": "salambaki"
-    },
-    {
-      "id": "1733221624187",
-      "name": "eminn",
-      "email": "eminn@salam7373",
-      "password": "salam7373",
-      "isLogged": true
-    },
-    {
-      "id": "1733221872435",
+      "id": 1733313207525,
       "name": "sahmur",
       "email": "sahmur@gmail",
       "password": "sahmur1",
-      "isLogged": true
+      "isLogged": false
     }
   ],
   "companies": [
@@ -131,12 +64,157 @@
   ],
   "companies-info": [
     {
-      "id": 1733312314350,
+      "id": "1733312314350",
       "name": "Ferid",
       "workemail": "fer@gmail.com",
       "password": "aslan2004",
       "photo": "pexels-photo-13063591.jpeg",
       "createdAt": "2024-12-04T11:38:34.350Z",
+      "vacancy": [
+        null
+      ]
+    },
+    {
+      "id": "1",
+      "name": "",
+      "workemail": "",
+      "password": "",
+      "photo": "",
+      "createdAt": "2023-01-15T12:00:00Z",
+      "isLogged": false
+    },
+    {
+      "id": "1733309631154",
+      "name": "zeynebbb",
+      "workemail": "zeyneb@gmail.com",
+      "password": "zeyneb87654321",
+      "photo": "Bitmap (7).png",
+      "createdAt": "2024-12-04T10:53:51.154Z",
+      "isLogged": true
+    },
+    {
+      "id": "1733310206042",
+      "name": "drxgr",
+      "workemail": "dxftht@gmail.com",
+      "password": "1234rsd",
+      "photo": "Bitmap (4).png",
+      "createdAt": "2024-12-04T11:03:26.042Z"
+    },
+    {
+      "id": "1733311079865",
+      "name": "nermin",
+      "workemail": "sil@gmail.com",
+      "password": "vgnhfff1234",
+      "photo": "Bitmap (6).png",
+      "createdAt": "2024-12-04T11:17:59.865Z"
+    },
+    {
+      "id": "1733311613151",
+      "name": "gcytujhgy",
+      "workemail": "vtgymkyg@gmail.com",
+      "password": "3245r3refdgvr",
+      "photo": "Bitmap (4).png",
+      "createdAt": "2024-12-04T11:26:53.151Z"
+    },
+    {
+      "id": "1733236216768",
+      "name": "asdsad",
+      "workemail": "wefewf@ADSAD",
+      "password": "wefewf",
+      "photo": "Bitmap (2).png",
+      "createdAt": "2024-12-03T14:30:16.768Z"
+    },
+    {
+      "id": "1733237883694",
+      "name": "nermin",
+      "workemail": "salam@gmail.com",
+      "password": "nermin123",
+      "photo": "Bitmap (5).png",
+      "createdAt": "2024-12-03T14:58:03.694Z"
+    },
+    {
+      "id": "1733284017350",
+      "name": "narsly",
+      "workemail": "narsly@gmail.com",
+      "password": "nars1234567",
+      "photo": "spik.png",
+      "createdAt": "2024-12-04T03:46:57.350Z"
+    },
+    {
+      "id": "1733284960162",
+      "name": "terlan",
+      "workemail": "terlan@gmail.com",
+      "password": "terlan1234567",
+      "photo": "spik.png",
+      "createdAt": "2024-12-04T04:02:40.162Z"
+    },
+    {
+      "id": "1733288129641",
+      "name": "eltun",
+      "workemail": "eltun@gmail.com",
+      "password": "eltun12345",
+      "photo": "spik.png",
+      "createdAt": "2024-12-04T04:55:29.641Z"
+    },
+    {
+      "id": "1733288772120",
+      "name": "code academy",
+      "workemail": "code@edu.az",
+      "password": "code12345678",
+      "photo": "spik.png",
+      "createdAt": "2024-12-04T05:06:12.120Z"
+    },
+    {
+      "id": "1733312991447",
+      "name": "kenenn mellim",
+      "workemail": "mellim@gmail.com",
+      "password": "mellim123",
+      "photo": "cc8aa2e8-ecb1-4187-ab8c-8519c44143d5.jpg",
+      "createdAt": "2024-12-04T11:49:51.447Z",
+      "vacancy": [
+        null
+      ]
+    },
+    {
+      "id": "1733313616950",
+      "name": "aslann",
+      "workemail": "aslaaaan@gmail.com",
+      "password": "aslan2004",
+      "photo": "pexels-photo-18820159.jpeg",
+      "createdAt": "2024-12-04T12:00:16.950Z",
+      "vacancy": [
+        null
+      ]
+    },
+    {
+      "id": "1733313721104",
+      "name": "sabina",
+      "workemail": "aaa@gmail.com",
+      "password": "aslan2004",
+      "photo": "pexels-photo-18820159.jpeg",
+      "createdAt": "2024-12-04T12:02:01.104Z",
+      "vacancy": [
+        null
+      ]
+    },
+    {
+      "id": "1733313757287",
+      "name": "ferrr",
+      "workemail": "ferrrr@gmail.com",
+      "password": "aslann2004",
+      "photo": "cc8aa2e8-ecb1-4187-ab8c-8519c44143d5.jpg",
+      "createdAt": "2024-12-04T12:02:37.287Z",
+      "vacancy": [
+        null
+      ]
+    },
+    {
+      "id": "1733313888953",
+      "name": "nead",
+      "workemail": "nead@gmail.com",
+      "password": "aslan2004",
+      "photo": "cc8aa2e8-ecb1-4187-ab8c-8519c44143d5.jpg",
+      "createdAt": "2024-12-04T12:04:48.953Z",
       "vacancy": [
         null
       ]
@@ -252,42 +330,6 @@
       "name": "Karyn Lloyd",
       "password": "Pa$$w0rd!",
       "isLogged": true
-    },
-    {
-      "id": "b516",
-      "name": "Oliver Dotson",
-      "password": "Pa$$w0rd!",
-      "isLogged": false
-    },
-    {
-      "id": "8904",
-      "name": "Audra Ramos",
-      "password": "Pa$$w0rd!",
-      "isLogged": false
-    },
-    {
-      "id": "3055",
-      "name": "Hoyt Melendez",
-      "password": "Pa$$w0rd!",
-      "isLogged": false
-    },
-    {
-      "id": "8e50",
-      "name": "Garth Rutledge",
-      "password": "Pa$$w0rd!",
-      "isLogged": false
-    },
-    {
-      "id": "3f08",
-      "name": "Malachi Miranda",
-      "password": "Pa$$w0rd!",
-      "isLogged": false
-    },
-    {
-      "id": "df20",
-      "name": "Kristen Hood",
-      "password": "Pa$$w0rd!",
-      "isLogged": false
     }
   ]
 }
