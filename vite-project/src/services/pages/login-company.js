@@ -2,15 +2,15 @@ const loginForm = document.querySelector(".login-form");
 const passwordInput = document.querySelector("#password");
 const usernameEmailInput = document.querySelector("#username-email");
 
-let islogged = false;
-
+let isLogged = false;
 
 loginForm.addEventListener("submit", async function (event) {
-  event.preventDefault();
+  event.preventDefault(); 
 
   const usernameEmail = usernameEmailInput.value.trim();
   const password = passwordInput.value.trim();
 
+  
   if (!usernameEmail || !password) {
     Swal.fire({
       icon: "error",
@@ -21,30 +21,30 @@ loginForm.addEventListener("submit", async function (event) {
   }
 
   try {
+    
     const response = await fetch("http://localhost:8000/users");
     const users = await response.json();
 
-
+ 
     const user = users.find(
       (user) => user.email === usernameEmail || user.name === usernameEmail
     );
-    console.log(user)
+    console.log(user);
+
+    
     if (user && user.password === password) {
-
-      console.log(user)
-
-
+     
       fetch(`http://localhost:8000/users/${user.id}`, {
         method: "PATCH",
         body: JSON.stringify({ isLogged: true }),
         headers: {
           "Content-Type": "application/json",
         },
-      }).then(resp => { console.log(resp) }).catch(err => {
-        console.log(err)
       })
+        .then((resp) => console.log(resp))
+        .catch((err) => console.log(err));
 
-
+   
       Swal.fire({
         icon: "success",
         title: "Login Successful",
@@ -52,11 +52,11 @@ loginForm.addEventListener("submit", async function (event) {
         timer: 3000,
         timerProgressBar: true,
         willClose: () => {
-          window.location.href = "main.html";
+          window.location.href = "main.html"; 
         },
       });
     } else {
-      islogged = false;
+      isLogged = false;
       Swal.fire({
         icon: "error",
         title: "Oops...",
@@ -72,15 +72,13 @@ loginForm.addEventListener("submit", async function (event) {
     });
   }
 });
+
+
 const togglePassword = document.querySelector("#toggle-password");
 
-
 togglePassword.addEventListener("click", function () {
-
   const type = passwordInput.type === "password" ? "text" : "password";
-
   passwordInput.type = type;
-
 
   if (type === "password") {
     togglePassword.classList.remove("fa-eye-slash");

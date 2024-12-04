@@ -1,3 +1,4 @@
+
 const menuToggle = document.querySelector(".new-menu-item");
 const header = document.getElementById("header");
 
