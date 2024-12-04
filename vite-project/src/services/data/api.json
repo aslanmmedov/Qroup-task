@@ -275,7 +275,7 @@
       "createdAt": "2024-12-03T14:58:03.694Z"
     },
     {
-      "id": 1733284017350,
+      "id": "1733284017350",
       "name": "narsly",
       "workemail": "narsly@gmail.com",
       "password": "nars1234567",
@@ -283,7 +283,7 @@
       "createdAt": "2024-12-04T03:46:57.350Z"
     },
     {
-      "id": 1733284960162,
+      "id": "1733284960162",
       "name": "terlan",
       "workemail": "terlan@gmail.com",
       "password": "terlan1234567",
@@ -291,7 +291,7 @@
       "createdAt": "2024-12-04T04:02:40.162Z"
     },
     {
-      "id": 1733288129641,
+      "id": "1733288129641",
       "name": "eltun",
       "workemail": "eltun@gmail.com",
       "password": "eltun12345",
@@ -299,7 +299,7 @@
       "createdAt": "2024-12-04T04:55:29.641Z"
     },
     {
-      "id": 1733288772120,
+      "id": "1733288772120",
       "name": "code academy",
       "workemail": "code@edu.az",
       "password": "code12345678",
@@ -307,31 +307,6 @@
       "createdAt": "2024-12-04T05:06:12.120Z"
     }
   ],
-  "vacancies": [
-    {
-      "id": "1",
-      "title": "Frontend Developer",
-      "companyId": 1,
-      "description": "We are looking for a skilled Frontend Developer with experience in React and TypeScript.",
-      "salary": "2000-3000 AZN",
-      "postedAt": "2024-11-30T10:00:00Z",
-      "expiresAt": "2024-12-31T23:59:59Z",
-      "employmentType": "Full-time",
-      "isActive": true,
-      "candidates": [
-        {
-          "candidateId": "1",
-          "status": "pending"
-        },
-        {
-          "candidateId": "2",
-          "status": "accepted"
-        },
-        {
-          "candidateId": "3",
-          "status": "rejected"
-        }
-      ]
   "vacancies": [
     {
       "id": "2",
@@ -428,6 +403,42 @@
       "expiresAt": "2024-12-31T23:59:59Z",
       "employmentType": "Full-time",
       "isActive": true
+    },
+    {
+      "id": "8dae",
+      "title": "sdd",
+      "salary": "3444",
+      "description": "dfs",
+      "employmentType": "full",
+      "postedAt": "2024-12-4 0:12:33",
+      "imgUrl": ""
+    },
+    {
+      "id": "760a",
+      "title": "aaaa",
+      "salary": "3434",
+      "description": "jhdasj",
+      "employmentType": "full",
+      "postedAt": "2024-12-4 0:19:28",
+      "imgUrl": "",
+      "companyId": {
+        "id": "1733233497499",
+        "name": "nermin",
+        "workemail": "hey@code.edu.az",
+        "password": "12345nr",
+        "photo": "Capture.PNG",
+        "createdAt": "2024-12-03T13:44:57.499Z"
+      }
+    },
+    {
+      "id": "3760",
+      "title": "jdks",
+      "salary": "7676",
+      "description": "oikl",
+      "employmentType": "guk",
+      "postedAt": "2024-12-4 0:20:50",
+      "imgUrl": "",
+      "companyId": "1733233497499"
     }
   ],
   "admin": [

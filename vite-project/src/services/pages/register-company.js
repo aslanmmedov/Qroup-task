@@ -1,3 +1,5 @@
+import { getAllData } from "../utils/helpers";
+
 const loginForm = document.querySelector(".register-form");
 const passwordInput = document.querySelector("#password");
 const emailInput = document.querySelector("#work-email");
@@ -23,6 +25,13 @@ loginForm.addEventListener("submit", async function (event) {
     // }
 
     // New company data
+    let resp = await getAllData("companies-info");
+    let data = await getAllData("vacancies");
+    let companyid = resp.find((p) => p.id);
+    let companyJobs = data.find((q) => q.companyId === companyid);
+    let vacancy = [];
+    vacancy.push(companyJobs);
+    
     const companyData = {
         id: Date.now(),
         name: companyname,
@@ -30,6 +39,7 @@ loginForm.addEventListener("submit", async function (event) {
         password: password,
         photo: file.name,
         createdAt: new Date().toISOString(),
+        vacancy:vacancy
     };
 
     try {
