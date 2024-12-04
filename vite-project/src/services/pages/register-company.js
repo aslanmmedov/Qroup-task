@@ -1,3 +1,5 @@
+import { getAllData } from "../utils/helpers";
+
 const loginForm = document.querySelector(".register-form");
 const passwordInput = document.querySelector("#password");
 const emailInput = document.querySelector("#work-email");
@@ -12,6 +14,7 @@ loginForm.addEventListener("submit", async function (event) {
     const password = passwordInput.value.trim();
     const file = fileInput.files[0];
 
+
     
     if (!companyname || !workemail || !password || !file) {
         Swal.fire({
@@ -22,6 +25,26 @@ loginForm.addEventListener("submit", async function (event) {
         return;
     }
 
+
+   
+    // Validation
+    // if (!companyname || !workemail || !password || !file) {
+    //     Swal.fire({
+    //         icon: "error",
+    //         title: "Oops...",
+    //         text: "Please fill all the fields.",
+    //     });
+    //     return;
+    // }
+
+    // New company data
+    let resp = await getAllData("companies-info");
+    let data = await getAllData("vacancies");
+    let companyid = resp.find((p) => p.id);
+    let companyJobs = data.find((q) => q.companyId === companyid);
+    let vacancy = [];
+    vacancy.push(companyJobs);
+
     const companyData = {
         id: Date.now().toString(),
         name: companyname,
@@ -29,6 +52,7 @@ loginForm.addEventListener("submit", async function (event) {
         password: password,
         photo: file.name,
         createdAt: new Date().toISOString(),
+        vacancy:vacancy
     };
 
     try {
