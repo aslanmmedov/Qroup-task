@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+  }
+  
+  .filters {
+    margin: 0 20px 20px 5rem;
+  }
+  @media only screen and (max-width: 1023px) {
+    .filters {
+      margin: 20px 20px 20px 20px;
+    }
+  }
+  
+  #search-input {
+    width:100%;
+    padding: 10px;
+    font-size: 16px;
+    border:none;
+    border-radius: 10px;
+    background-color:#2a2236;
+    
+  }
+  #search-input::placeholder{
+    color:rgba(255, 255, 255, 0.808);
+  }
+  
+  button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .vacancies-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    min-height:420px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display:flex;
+    flex-direction: column;
+    gap:0.6rem;
+  }
+  
+  .card .img-table{
+    width:100%;
+  }
+  .card h3 {
+    margin-top: 0;
+    color: red;
+  }
+  
+  .card p {
+    margin: 10px 0;
+    
+  }
+  
+  .card span {
+    font-weight: bold;
+  }
+    #salary-select{
+  
+        width:100%;
+        height: 36px;
+        border: solid 2px ;
+        border:none;
+        border-radius: 10px;
+         background-color:#2a2236;
+         color:rgba(255, 255, 255, 0.761);
+    }  
+    #salary-select::placeholder{
+      color:rgba(255, 255, 255, 0.808);
+    }
+
+    #vacancies-cards{
+      min-height:100vh;
+      background-color:#f0ebed;
+    }

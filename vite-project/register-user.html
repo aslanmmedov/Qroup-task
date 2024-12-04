@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/ferid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container-register">
+        <div class="left-side">
+            <h1>Choose your best jobs!</h1>
+            <img src="https://cdn.pixabay.com/photo/2023/02/07/18/56/rocket-7774875_1280.png"
+                alt="Learning illustration" class="illustration">
+        </div>
+        <div class="right-side">
+            <form class="login-form">
+                <h2>Sign-up For User</h2>
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="e-mail">E-mail</label>
+                    <input type="email" id="email" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <div class="password-container">
+                        <input type="password" id="password" name="password" required autocomplete="true">
+                        <i id="toggle-password" class="fa-regular fa-eye"></i>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="file">File</label>
+                    <input type="file" id="file" name="password" required>
+                </div>
+
+                <button type="submit" class="login-button">Sign-up</button>
+                <div class="signup-link">
+                    Already have you account? <a href="login-user.html">Log in</a>
+                </div>
+                <div class="signup-link">
+                    For Company Login Click ! <a href="login-company.html">Sign up</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./src/services/pages/register-user.js"></script>
+</body>
+
+</html>
