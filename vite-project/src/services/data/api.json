@@ -27,80 +27,6 @@
       "name": "qwdxw",
       "email": "wdxqwwd@dwejf",
       "password": "wecw"
-    },
-    {
-      "id": "1733170864767",
-      "name": "esgerli_ferid",
-      "email": "esgerli_ferid@gmail.com",
-      "password": "salam123"
-    },
-    {
-      "id": "1733170885397",
-      "name": "esgerli_ferid",
-      "email": "fwefwedf@gmail.com",
-      "password": "salam"
-    },
-    {
-      "id": "1733171433901",
-      "name": "aganur",
-      "email": "aga2000er@gmail.cpm",
-      "password": "aga20044002"
-    },
-    {
-      "id": "1733171546575",
-      "name": "agaaa",
-      "email": "agaaa20005ee@salam",
-      "password": "aga2004e"
-    },
-    {
-      "id": "1733171603886",
-      "name": "davywaaaa",
-      "email": "esgerli_ferid@fffaffaa",
-      "password": "xawcaec"
-    },
-    {
-      "id": "1733171785861",
-      "name": "salaaaammm",
-      "email": "salam@salam",
-      "password": "dasadasa"
-    },
-    {
-      "id": "1733172329138",
-      "name": "salam",
-      "email": "salam123@gmail.com",
-      "password": "agasalam123"
-    },
-    {
-      "id": "1733220279314",
-      "name": "aslan",
-      "email": "aslan123@gmail.com",
-      "password": "aslan123"
-    },
-    {
-      "id": "1733221138691",
-      "name": "emin",
-      "email": "eminov@gmail.com",
-      "password": "emin123"
-    },
-    {
-      "id": "1733221208315",
-      "name": "elcan",
-      "email": "elcan1@gmail.com",
-      "password": "salambaki"
-    },
-    {
-      "id": "1733221624187",
-      "name": "eminn",
-      "email": "eminn@salam7373",
-      "password": "salam7373",
-      "isLogged": true
-    },
-    {
-      "id": "1733221872435",
-      "name": "sahmur",
-      "email": "sahmur@gmail",
-      "password": "sahmur1",
-      "isLogged": true
     }
   ],
   "companies": [
@@ -136,129 +62,43 @@
       "workemail": "",
       "password": "",
       "photo": "",
-      "createdAt": "2023-01-15T12:00:00Z"
+      "createdAt": "2023-01-15T12:00:00Z",
+      "isLogged": false
     },
     {
-      "id": "1733233497499",
-      "name": "nermin",
-      "workemail": "hey@code.edu.az",
-      "password": "12345nr",
-      "photo": "Capture.PNG",
-      "createdAt": "2024-12-03T13:44:57.499Z"
+      "id": "1733309631154",
+      "name": "zeynebbb",
+      "workemail": "zeyneb@gmail.com",
+      "password": "zeyneb87654321",
+      "photo": "Bitmap (7).png",
+      "createdAt": "2024-12-04T10:53:51.154Z",
+      "isLogged": true
     },
     {
-      "id": "1733233516748",
-      "name": "ghngy",
-      "workemail": "gthhftd",
-      "password": "12345",
-      "photo": "Capture.PNG",
-      "createdAt": "2024-12-03T13:45:16.748Z"
-    },
-    {
-      "id": "1733233750332",
-      "name": "rtgrg",
-      "workemail": "1213@gmail.com",
-      "password": "123sal",
-      "photo": "Capture.PNG",
-      "createdAt": "2024-12-03T13:49:10.332Z"
-    },
-    {
-      "id": "1733233806340",
-      "name": "salammmnm",
-      "workemail": "salam1213@gmail.com",
-      "password": "123456789",
-      "photo": "Capture.PNG",
-      "createdAt": "2024-12-03T13:50:06.340Z"
-    },
-    {
-      "id": "1733234214060",
-      "name": "hjk",
-      "workemail": "hjk@gmail.com",
-      "password": "hjk123",
-      "photo": "Oceans excess heat.avif",
-      "createdAt": "2024-12-03T13:56:54.060Z"
-    },
-    {
-      "id": "1733235036242",
-      "name": "asdsad",
-      "workemail": "narmin@code.edu.az",
-      "password": "1312312",
-      "photo": "Bitmap (3).png",
-      "createdAt": "2024-12-03T14:10:36.242Z"
-    },
-    {
-      "id": "1733235104746",
-      "name": "asdsa",
-      "workemail": "salam@gmail.com",
-      "password": "asdasq312",
-      "photo": "Bitmap (5).png",
-      "createdAt": "2024-12-03T14:11:44.746Z"
-    },
-    {
-      "id": "1733235142050",
-      "name": "salammmnm",
-      "workemail": "hey@code.edu.az",
-      "password": "123123",
-      "photo": "Bitmap (1).png",
-      "createdAt": "2024-12-03T14:12:22.050Z"
-    },
-    {
-      "id": "1733235292346",
-      "name": "asdsadas",
-      "workemail": "narmin@code.edu.az",
-      "password": "12312312",
-      "photo": "Bitmap (3).png",
-      "createdAt": "2024-12-03T14:14:52.346Z"
-    },
-    {
-      "id": "1733235306938",
-      "name": "asdasd",
-      "workemail": "nermin@code.edu.az",
-      "password": "123123123",
+      "id": "1733310206042",
+      "name": "drxgr",
+      "workemail": "dxftht@gmail.com",
+      "password": "1234rsd",
       "photo": "Bitmap (4).png",
-      "createdAt": "2024-12-03T14:15:06.938Z"
+      "createdAt": "2024-12-04T11:03:26.042Z"
     },
     {
-      "id": "1733235338210",
-      "name": "asdsad",
-      "workemail": "1213@gmail.com",
-      "password": "423423",
-      "photo": "Bitmap (1).png",
-      "createdAt": "2024-12-03T14:15:38.210Z"
-    },
-    {
-      "id": "1733235706313",
-      "name": "asdsad",
-      "workemail": "nermin@code.edu.az",
-      "password": "12312414",
-      "photo": "companyphoto",
-      "createdAt": "2024-12-03T14:21:46.313Z"
-    },
-    {
-      "id": "1733235723185",
-      "name": "ewrewrwe",
-      "workemail": "1213@gmail.com",
-      "password": "23432432",
-      "photo": "companyphoto",
-      "createdAt": "2024-12-03T14:22:03.185Z"
-    },
-    {
-      "id": "1733235768305",
+      "id": "1733311079865",
       "name": "nermin",
-      "workemail": "salam@gmail.com",
-      "password": "sadsadasd",
-      "photo": "companyphoto",
-      "createdAt": "2024-12-03T14:22:48.305Z"
+      "workemail": "sil@gmail.com",
+      "password": "vgnhfff1234",
+      "photo": "Bitmap (6).png",
+      "createdAt": "2024-12-04T11:17:59.865Z"
     },
     {
-      "id": "1733236200289",
-      "name": "asdsad",
-      "workemail": "narmin@code.edu.az",
-      "password": "23432423",
-      "photo": "Bitmap (2).png",
-      "createdAt": "2024-12-03T14:30:00.289Z"
-    },
-    {
+
+      "id": "1733311613151",
+      "name": "gcytujhgy",
+      "workemail": "vtgymkyg@gmail.com",
+      "password": "3245r3refdgvr",
+      "photo": "Bitmap (4).png",
+      "createdAt": "2024-12-04T11:26:53.151Z"
+
       "id": "1733236216768",
       "name": "asdsad",
       "workemail": "wefewf@ADSAD",
@@ -305,10 +145,38 @@
       "password": "code12345678",
       "photo": "spik.png",
       "createdAt": "2024-12-04T05:06:12.120Z"
+
     }
   ],
   "vacancies": [
     {
+
+      "id": "1",
+      "title": "Frontend Developer",
+      "companyId": 1,
+      "description": "We are looking for a skilled Frontend Developer with experience in React and TypeScript.",
+      "salary": "2000-3000 AZN",
+      "postedAt": "2024-11-30T10:00:00Z",
+      "expiresAt": "2024-12-31T23:59:59Z",
+      "employmentType": "Full-time",
+      "isActive": true,
+      "candidates": [
+        {
+          "candidateId": "1",
+          "status": "pending"
+        },
+        {
+          "candidateId": "2",
+          "status": "accepted"
+        },
+        {
+          "candidateId": "3",
+          "status": "rejected"
+        }
+      ]
+    },
+    {
+
       "id": "2",
       "title": "Backend Developer",
       "imgUrl": "https://abbtech.az/storage/uploads/files/1687508692_1615533694-frontendd.svg",
@@ -319,6 +187,8 @@
       "expiresAt": "2024-12-31T23:59:59Z",
       "employmentType": "Full-time",
       "isActive": true
+
+
     },
     {
       "id": "3",
@@ -439,6 +309,7 @@
       "postedAt": "2024-12-4 0:20:50",
       "imgUrl": "",
       "companyId": "1733233497499"
+
     }
   ],
   "admin": [
@@ -453,42 +324,6 @@
       "name": "Karyn Lloyd",
       "password": "Pa$$w0rd!",
       "isLogged": true
-    },
-    {
-      "id": "b516",
-      "name": "Oliver Dotson",
-      "password": "Pa$$w0rd!",
-      "isLogged": false
-    },
-    {
-      "id": "8904",
-      "name": "Audra Ramos",
-      "password": "Pa$$w0rd!",
-      "isLogged": false
-    },
-    {
-      "id": "3055",
-      "name": "Hoyt Melendez",
-      "password": "Pa$$w0rd!",
-      "isLogged": false
-    },
-    {
-      "id": "8e50",
-      "name": "Garth Rutledge",
-      "password": "Pa$$w0rd!",
-      "isLogged": false
-    },
-    {
-      "id": "3f08",
-      "name": "Malachi Miranda",
-      "password": "Pa$$w0rd!",
-      "isLogged": false
-    },
-    {
-      "id": "df20",
-      "name": "Kristen Hood",
-      "password": "Pa$$w0rd!",
-      "isLogged": false
     }
   ]
 }

@@ -7,12 +7,25 @@ const nameInput = document.querySelector("#companyname");
 const fileInput = document.querySelector("#company-photo");
 
 loginForm.addEventListener("submit", async function (event) {
-    event.preventDefault(); 
+    event.preventDefault();
 
     const companyname = nameInput.value.trim();
     const workemail = emailInput.value.trim();
     const password = passwordInput.value.trim();
     const file = fileInput.files[0];
+
+
+    
+    if (!companyname || !workemail || !password || !file) {
+        Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Please fill all the fields.",
+        });
+        return;
+    }
+
+
    
     // Validation
     // if (!companyname || !workemail || !password || !file) {
@@ -31,9 +44,9 @@ loginForm.addEventListener("submit", async function (event) {
     let companyJobs = data.find((q) => q.companyId === companyid);
     let vacancy = [];
     vacancy.push(companyJobs);
-    
+
     const companyData = {
-        id: Date.now(),
+        id: Date.now().toString(),
         name: companyname,
         workemail: workemail,
         password: password,
@@ -43,7 +56,7 @@ loginForm.addEventListener("submit", async function (event) {
     };
 
     try {
-        // Check if company already exists
+       
         const response = await fetch("http://localhost:8000/companies-info");
         const companies = await response.json();
 
@@ -52,16 +65,16 @@ loginForm.addEventListener("submit", async function (event) {
                 company.name === companyname || company.workemail === workemail
         );
 
-        // if (companyExists) {
-        //     Swal.fire({
-        //         icon: "error",
-        //         title: "Oops...",
-        //         text: "The company name or work email is already taken. Please choose another.",
-        //     });
-        //     return;
-        // }
+        if (companyExists) {
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "The company name or work email is already taken. Please choose another.",
+            });
+            return;
+        }
 
-        // Add new company data
+    
         const postResponse = await fetch("http://localhost:8000/companies-info", {
             method: "POST",
             headers: {
@@ -78,14 +91,10 @@ loginForm.addEventListener("submit", async function (event) {
                 timer: 3000,
                 timerProgressBar: true,
             }).then(() => {
-                window.location.href = "login-company.html"; // Redirect to login page
+                window.location.href = "login-company.html";
             });
         } else {
-            Swal.fire({
-                icon: "error",
-                title: "Oops...",
-                text: "Something went wrong, please try again.",
-            });
+            throw new Error("Failed to register company");
         }
     } catch (error) {
         console.error("Error during registration:", error);
@@ -97,6 +106,10 @@ loginForm.addEventListener("submit", async function (event) {
     }
 });
 
+
+
+
+
 const togglePassword = document.querySelector("#toggle-password");
 
 togglePassword.addEventListener("click", function () {
@@ -104,17 +117,18 @@ togglePassword.addEventListener("click", function () {
     passwordInput.type = type;
 
     if (type === "password") {
-        togglePassword.classList.remove("fa-eye-slash");
-        togglePassword.classList.add("fa-eye");
+        togglePassword.classList.remowe("fa-regular fa-eye");
+        togglePassword.classList.add("fa-solid fa-eye-slash");
+     
     } else {
-        togglePassword.classList.remove("fa-eye");
-        togglePassword.classList.add("fa-eye-slash");
+        togglePassword.classList.add("fa-solid fa-eye-slash");
+        togglePassword.classList.remove("fa-regular fa-eye");
+        
     }
 });
 
-// Show file name when file is selected
+
 document.addEventListener('DOMContentLoaded', () => {
-    const fileInput = document.querySelector('.file-input');
     const customButton = document.querySelector('.custom-file-button');
     const fileNameSpan = document.querySelector('.file-name');
 
